@@ -1,5 +1,8 @@
-FROM node:14.2.0
-COPY ./build ./app
+FROM node:16.18.0
+COPY . ./app
 WORKDIR /app
 RUN npm install -g serve
-CMD serve -s . -l $PORT
+# RUN npm run build
+CMD ["serve", "-s", "build","-l", "3005"]
+# CMD ["npm", "run", "deploy"]
+# CMD serve -s . -l 3005
