@@ -6,17 +6,17 @@
     "@sentry/cli": "^2.9.0",
     "@sentry/react": "^7.19.0",
     "@sentry/tracing": "^7.19.0",
-    "history": "^1.17.0",
-    "material-ui": "^0.18.7",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-redux": "^7.2.0",
-    "react-router": "^1.0.3",
-    "react-scripts": "^3.4.1",
-    "redux": "^4.0.5",
+    "history": "^5.3.0",
+    "material-ui": "^0.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.0",
     "redux-logger": "^3.0.6",
     "request": "^2.88.0",
-    "serve": "^10.1.2"
+    "serve": "^14.1.1"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -27,7 +27,7 @@
     "deploy-ghp": "npm run predeploy && gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^4.0.0"
   },
   "browserslist": {
     "production": [
