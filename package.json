@@ -1,5 +1,5 @@
 {
-  "name": "react-sentry",
+  "name": "react-sentry", 
   "version": "1.1.0",
   "private": true,
   "dependencies": {
