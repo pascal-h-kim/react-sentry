@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "version": "1.0.4",
+  "name": "react-sentry",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@sentry/cli": "^2.9.0",
